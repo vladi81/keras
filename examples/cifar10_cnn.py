@@ -21,7 +21,7 @@ import numpy as np
 
 batch_size = 32
 num_classes = 10
-epochs = 200
+epochs = 1
 data_augmentation = True
 num_predictions = 20
 save_dir = os.path.join(os.getcwd(), 'saved_models')
